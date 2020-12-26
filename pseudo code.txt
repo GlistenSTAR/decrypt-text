@@ -1,0 +1,43 @@
+Pseudo Code for Task 1
+
+input: encoded script
+output: decoded script (at least 6 intelligible words)
+
+origtxt = input
+decodedtxt = ""
+countedtxt = [] /*the frequency of each alphabetic character in origtxt*/
+
+/* letter counting */
+
+for i in origtxt.character
+	countedtxt[charactercode] increment /* make list of integer numbers that represent the number of each letter in the text */
+	crypto letters origtxt
+	if the word "the" is detected in the scrambled text 
+	then encodeMethod is "Caesar cipher" and key is (charcode(e) - counted[charactercode].max)
+next
+
+if "Caesar cipher"
+then decodedtxt = decode(origtxt, key)
+
+/* if no "Caesar cipher" then "Vigener cipher" */
+
+/* digram and trigram */
+	counteddi = crypto digrams origtxt
+	countedtri = crypto trigrams origtxt
+
+countedletter[0] => "e"
+countedletter[1] => "t"
+counteddi[0] => "in"
+counteddi[1] => "th"
+countedtri[0] => "the"
+
+/* after this we need manual manipulation according to the decryped text and occurence of intelligible words */
+
+if user says ok  then exit
+else
+	/* change one character with another */
+	userinput[0] => userinput[1]
+end if
+
+
+
