@@ -41,3 +41,17 @@ end if
 
 
 
+First you need to open server manager ->tools -> firewall with advanced security ->inbounding connection rules -> new rule -> port
+
+
+Then, after creating rule
+
+Start the registry editor. ...
+Navigate to the following registry subkey: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp.
+Find PortNumber.
+Click Edit > Modify, and then click Decimal.
+Type the new port number, and then click OK
+and restart
+
+
+
